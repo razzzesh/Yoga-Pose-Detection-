@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendation</title>
+    <link rel="stylesheet" href="indexPage.css">
+    <!-- <link rel="stylesheet" href="R.css"> -->
+    <link rel="stylesheet" href="RecommendationPage.css">
+</head>
+
+
+<body>
+<div class="nav">
+    <input type="checkbox" id="nav-check">
+    <div class="nav-header">
+      <div class="nav-title">
+        <img src="Assets/PoseRecognizer (1).png" alt="logo" class="logo">
+      </div>
+    </div>
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+    
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="index.html" >Yoga Styles</a>
+      <a href="index.html">Yoga Tips</a>
+      <a href="Detection.html" target="_blank">Detect Pose</a>
+      <a href="Recommendation.html" target="_blank">Recommend me</a>
+      <a href="index.html" >About us</a>
+      
+    </div>
+  </div>
+<section>
+<div class="form-container">
+    <div class="left-form">
+        <h2 class="form-title">Mindful movement: why 
+            perfecting your yoga
+             poses can deepen your mind-body connection?</h2>
+        <p class="form-content">Performing yoga poses correctly 
+            is essential for both beginners and experienced 
+            practitioners. Correct alignment and form during yoga 
+            poses not only help prevent injury, but also ensure that you receive the maximum benefits from each pose. Incorrect form can lead to strains, sprains, or even more serious injuries, such as joint damage or muscle tears.
+
+            Furthermore, practicing yoga poses with proper
+             alignment and form can help you deepen your mind-body 
+             connection. When you perform a pose with correct
+              alignment, you activate the correct muscles and engage 
+              in proper breathing techniques, allowing you to fully
+             experience the pose and its benefits.</p>
+        <div class="form-img">
+            <img class="form-image" alt="image" src="Assets/R (2).png">
+        </div>
+    </div>
+
+
+    <div class="right-form">
+        <h2 class="fr">Recommend me!</h2>
+
+        <div class="g">
+
+            <div class="g1">
+        <label for="gender">Select your gender: </label>
+        <div class="custom">
+        <select name="gender" id="gender">
+            <option value="F">Female</option>
+            <option value="M">Male</option>
+            <option value="N">Other</option>
+        </select>
+</div>
+    <br>
+        <label for="age">Enter your age: </label><br>
+        <input  type="text" placeholder="" id="age">
+        <br>
+        <br>
+        <label for="yoga">Your medical issue: </label>
+<div class="custom">
+<select name="yoga" id="problem">
+  <option value="1">Asthama </option>
+  <option value="2">Arthritis </option>
+  <option value="3">Diabetes </option>
+  <option value="4">Hypertension</option>
+  <option value="5">Depression</option>
+  <option value="6">Liver problems</option>
+  <option value="7">Lower back pain</option>
+  <option value="8">Insomnia </option>
+  <option value="9">Acidity</option>
+  <option value="10">Constipation</option>
+</div>
+
+</select>
+
+</div>
+
+<div class="g2">
+<textarea  class="typing" id="resultyoga" placeholder="Recommended yoga pose will appear here..."></textarea>
+</div>
+
+</div>
+        <br>
+        <br>
+        <button id="yogabtn" class="btn" type="button">Recommend</button>
+
+    </div>
+
+    
+
+</div>
+
+</section>
+
+<br>
+<br>
+<section>
+    <div class="footerc">
+        <div class="mail">
+          <div class="footer"><p>@PoseRecognizer</p></div>
+          <div class="footer"><p>The Website to Detect and Correct Yoga Pose</p></div>
+      </div>
+      <div class="contact">
+          <div class="contacthelp"><p>1382-9000-0927</p></div>
+          <div class="contacthelp"><p>poserecognizer@gmail.com</p></div>
+      </div>
+      </div>
+</section>
+  <script src="recommendation.js"></script>
+</body>
+</html>

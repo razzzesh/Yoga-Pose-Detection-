@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poiret+One&family=Satisfy&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+video {
+    display: none;
+}
+
+button {
+    font-size: 1em;
+}
+
+#message {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 30px;
+    margin-top: 1rem;
+    background-color: rgb(99, 216, 254);
+}
+
+canvas {
+    border: 2px solid rgb(0, 176, 234);
+    width: 640px;
+    height: 360px;
+
+}
+
+#pose {
+    display: none;
+}
+
+textarea {
+    width: 640px;
+    height: 300px;
+}
+
+.detection-container{
+    margin-left: 20rem;
+    margin-top: 1.3rem;
+    height: 75vh;
+    background-color: #D2E8FF;
+    border-radius: 20px;
+    width: 60vw;
+    align-items: center;
+}
+
+.canvas{
+    background-color: white;
+    margin-left: 8.5rem;
+    margin-top: 2rem;
+    height: 40vh;
+
+}
+
+.prediction{
+    height: 15vh;
+    background-color: #fecae2;
+}
+
+textarea{
+    margin-top: 2rem;
+}
+.upload{
+    margin-left: 17rem;
+}
+label{
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bold;
+}
+input{
+    font-size: 1.2rem;
+    
+}
+.cp{
+    width: 100%;
+    height: 70px;
+    margin-top: 1.3rem;
+    font-size: 0.85rem;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    font-weight: 500;
+}
+
+@media screen and (max-width:600px ){
+
+
+    footerc{
+        background: rgb(203,196,254);
+        background: linear-gradient(90deg, rgba(203,196,254,1) 0%, rgba(197,189,253,1) 38%, rgba(178,138,252,1) 60%, rgba(139,123,253,1) 100%, rgba(203,196,254,1) 100%);
+        height: 30vh;
+      
+      }
+      
+      .contactUs{
+        background-color:#D9D3FF;
+        width:100%;
+        height:30vh;
+    
+      }
+      .mail{
+        margin-left: -3rem;
+        font-size: 1.1rem;
+        color: #5a0081;
+        text-align: center;
+    
+      }
+      .contact{
+        font-size: 1.1rem;
+        color: #5a0081;
+        margin-left: -3rem;
+        margin-top: 8rem;
+        text-align: center;
+      }
+      
+    video {
+        display: none;
+    }
+    
+    button {
+        font-size: 1em;
+    }
+    
+    #message {
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 30px;
+        margin-top: 1rem;
+        background-color: rgb(99, 216, 254);
+    }
+    
+    canvas {
+        border: 2px solid rgb(0, 176, 234);
+        width: 360px;
+        height: 360px;
+    
+    }
+    
+    #pose {
+        display: none;
+    }
+    
+    textarea {
+        width: 640px;
+        height: 300px;
+    }
+    
+    .detection-container{
+        margin-left: 1.5rem;
+        margin-top: 1.3rem;
+        height: 66vh;
+        background-color: #D2E8FF;
+        border-radius: 20px;
+        width: 87vw;
+        align-items: center;
+    }
+    
+    .canvas{
+        background-color: white;
+        margin-left:-0.02rem;
+        margin-top: 2rem;
+        height: 30vh;
+    
+    }
+    
+    .prediction{
+        height: 15vh;
+        background-color: #fecae2;
+    }
+    
+    textarea{
+        margin-top: 2rem;
+    }
+    .upload{
+        margin-left: 2rem;
+        margin-top: 0.5rem;
+    }
+    label{
+        font-size: 1rem;
+        color: black;
+        font-weight: bold;
+       
+    }
+    input{
+        font-size: 1rem;
+        
+    }
+    .cp{
+        width: 100%;
+        height: 70px;
+        margin-top: 1.8rem;
+        border: 1px solid black;
+    }
+}
